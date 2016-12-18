@@ -71,19 +71,19 @@
         </section>
 
         <section id="reviews">
-          <h2>Reviews</h2>
           <form id="review-form" action="/reviews" method="post">
+            <h2>Reviews</h2>
             <label for="name">Name</label>
             <input id="name" type="text" name="name">
 
-            <label for="rating">Rating</label>
+            <label for="rating"></label>
             1<input type="radio" name="rating" value="1" checked>
             2<input type="radio" name="rating" value="2">
             3<input type="radio" name="rating" value="3">
             4<input type="radio" name="rating" value="4">
             5<input type="radio" name="rating" value="5">
 
-            <label for="cooking expertise">Cooking Expertise</label>
+            <label for="cooking expertise"></label>
             <select id="cooking expertise" name="">
               <option value="--Select Cooking Expertise --" disabled="true" selected="true">--Select Cooking Expertise --</option>
               <option value="Sometimes Cook">Sometimes Cook</option>
@@ -92,7 +92,7 @@
               <option value="Professional Chef">Professional Chef</option>
             </select>
 
-            <label>Review
+            <label>
               <textarea id="review" name="review" rows="8" cols="40"></textarea>
             </label>
 

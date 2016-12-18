@@ -51,3 +51,67 @@ h2 + .user_review {
       background-image: url(stars.png);
       vertical-align: bottom;
   }*/
+
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 20px;
+  display: block;
+}
+
+nav {
+  display: inline-block;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+    width: 180px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.ingredients-list li {
+  margin: 15px;
+}
+
+ol li {
+  margin: 15px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 175px;
+}
+
+select {
+  display: block;
+  margin: 10px;
+  width: 175px;
+}
+
+textarea {
+  width: 300px;
+  margin-bottom: 7px;
+}
+
+label {
+  display: block;
+}
+
+form {
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
