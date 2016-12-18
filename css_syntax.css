@@ -27,3 +27,27 @@ ul li a {
   text-decoration: none;
   color: inherit;
 }
+
+input:last-child {
+  background-color: gold;
+}
+
+input[type="submit"]:hover {
+  -webkit-filter: brightness(90%);
+}
+
+ol li:nth-of-type(2n) {
+    background-color: whitesmoke;
+}
+
+h2 + .user_review {
+    border-top: 1px solid black;
+}
+
+/*input[type="radio"] {
+      -webkit-appearance: none;
+      width: 27px;
+      height: 27px;
+      background-image: url(stars.png);
+      vertical-align: bottom;
+  }*/
