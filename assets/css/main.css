@@ -46,6 +46,7 @@
 
 	.picture-and-name {
 		display: flex;
+		align-items: flex-end;
 		padding-bottom: 1em;
 		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		margin-bottom: 30px;
@@ -57,7 +58,6 @@
 
 	.name {
 		margin-left: 35px;
-		align-self: center;
 	}
 
 	.image {
@@ -3108,7 +3108,7 @@
 			/*border-bottom: solid 2px rgba(255, 255, 255, 0.125);*/
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
-			padding-bottom: 0.4em;
+			/*padding-bottom: 0.4em;*/
 		}
 
 		#banner p {
