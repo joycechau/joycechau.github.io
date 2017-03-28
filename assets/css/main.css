@@ -48,8 +48,16 @@
 		-webkit-text-size-adjust: none;
 	}
 
-	.picture {
-		/*border-radius: 1*/
+	.image {
+		height: 55%;
+	}
+
+	.image img {
+		height: 100%;
+	}
+
+	.project-info {
+		height: 45%;
 	}
 
 /* Box Model */
