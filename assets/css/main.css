@@ -44,6 +44,22 @@
 		border-spacing: 0;
 	}
 
+	.picture-and-name {
+		display: flex;
+		padding-bottom: 1em;
+		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		margin-bottom: 30px;
+	}
+
+	.picture {
+		border: 2px solid white;
+	}
+
+	.name {
+		margin-left: 35px;
+		align-self: center;
+	}
+
 	.image {
 		height: 55%;
 	}
@@ -3089,7 +3105,7 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			/*border-bottom: solid 2px rgba(255, 255, 255, 0.125);*/
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
