@@ -60,6 +60,21 @@
 		margin-left: 35px;
 	}
 
+	.resume {
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		letter-spacing: 2px;
+		border: 1px solid white;
+		padding: 10px;
+		border-radius: 3px;
+	}
+
+	.resume:hover {
+		border: 1px solid #D3D3D3;
+	}
+
 	.image {
 		height: 55%;
 	}
