@@ -1,1 +1,1 @@
-Check out my website at [joycechau.net](http://joycechau.net)!
+Check out my website at [joycechau.github.io](https://joycechau.github.io/)!
